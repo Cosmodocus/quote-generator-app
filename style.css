@@ -89,3 +89,17 @@ body{
     outline: none;
     border: none;
 }
+
+@media(max-width:610px){
+    .quote-box{
+        width: 400px;
+        padding: 20px;
+    }
+
+    .quote-box blockquote{
+        font-size: 1.5rem;
+    }
+    #name{
+        justify-content: center;
+    }
+}
